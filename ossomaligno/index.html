@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ossomalignobooks</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link"></a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link"></a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link"></a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link"></a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link"></a></li>
+      </ul>
+      <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+      <a href="#"><img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem"></a>
+      <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+    <p class="banner__texto">Mergulhe na nossa estante e descubra novas aventuras e diversão através da leitura!</p>
+    <input type="search" class="banner__pesquisa" placeholder="PESQUINE AQUI">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Novos lançamentos</h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Harry-Potter-Pedra-Filosofal-Rowling/dp/8532530788">
+            <img src="img/harry_potter1.svg" alt="Harry Potter e a Pedra Filosofal">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Harry-Potter-C%C3%A2mara-Secreta-Rowling/dp/8532530796/ref=pd_lpo_d_sccl_1/142-1410041-5319116?pd_rd_w=QhANV&content-id=amzn1.sym.a2197dac-0fbe-4cc8-beca-b52f96ea33d5&pf_rd_p=a2197dac-0fbe-4cc8-beca-b52f96ea33d5&pf_rd_r=35PPCEYQG81YXCF95FKR&pd_rd_wg=47Qth&pd_rd_r=57039f0f-f531-4c1c-9016-50ccdafc6efc&pd_rd_i=8532530796&psc=1">
+            <img src="img/harry_potter2.svg" alt="Harry Potter e a Câmara Secreta">
+          </a>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Harry-Potter-Prisioneiro-Azkaban-Rowling/dp/853253080X/ref=pd_bxgy_thbs_d_sccl_1/142-1410041-5319116?pd_rd_w=7s7fo&content-id=amzn1.sym.787de441-89cb-4c88-8014-1deb1a0e1e72&pf_rd_p=787de441-89cb-4c88-8014-1deb1a0e1e72&pf_rd_r=V34SNCXRGA8HQFHE3X5T&pd_rd_wg=GYLjo&pd_rd_r=a1aaa990-259b-426d-b7dd-0e0dfc9986ac&pd_rd_i=853253080X&psc=1">
+            <img src="img/harry_potter3.svg" alt="Harry Potter e o Prisioneiro de Azkaban">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Harry-Potter-C%C3%A1lice-Fogo-Rowling/dp/8532530818/ref=pd_bxgy_thbs_d_sccl_2/142-1410041-5319116?pd_rd_w=m30un&content-id=amzn1.sym.787de441-89cb-4c88-8014-1deb1a0e1e72&pf_rd_p=787de441-89cb-4c88-8014-1deb1a0e1e72&pf_rd_r=9XT5QP29JNN1GAES1RMM&pd_rd_wg=MjjxB&pd_rd_r=9c058dad-8735-43a7-9e6a-53e2e573acca&pd_rd_i=8532530818&psc=1">
+            <img src="img/harry_potter4.svg" alt="Harry Potter e o Cálice de Fogo">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Harry-Potter-Ordem-F%C3%AAnix-Rowling/dp/8532530826/ref=pd_bxgy_thbs_d_sccl_2/142-1410041-5319116?pd_rd_w=zJO1k&content-id=amzn1.sym.787de441-89cb-4c88-8014-1deb1a0e1e72&pf_rd_p=787de441-89cb-4c88-8014-1deb1a0e1e72&pf_rd_r=9WVZ5B7472P3ZA61GNH7&pd_rd_wg=dtoAh&pd_rd_r=f88a9ddb-0240-4700-8e3b-d6ddfd09c185&pd_rd_i=8532530826&psc=1">
+            <img src="img/harry_potter5.svg" alt="Harry Potter e a Ordem da Fênix">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Harry-Potter-Enigma-do-Pr%C3%ADncipe/dp/8532530834/ref=pd_bxgy_thbs_d_sccl_1/142-1410041-5319116?pd_rd_w=VlMUW&content-id=amzn1.sym.787de441-89cb-4c88-8014-1deb1a0e1e72&pf_rd_p=787de441-89cb-4c88-8014-1deb1a0e1e72&pf_rd_r=XDM7B0DZCP1MKB6G4C4H&pd_rd_wg=LJtNY&pd_rd_r=88572efa-614d-462e-9951-bbd8618c0062&pd_rd_i=8532530834&psc=1">
+            <img src="img/harry_potter6.svg" alt="Harry Potter e o Enigma do Príncipe">
+          </a>
+          </a>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+          <h2 class="descrição__titulo-livro">Wizarding World</h2>
+          <p class="descrição__texto">
+            
+          </p>
+        </div>
+        <img src="img/Wizarding World.svg" class="descrição__imagem" />
+      </div>
+      <div class="card__botões">
+        <ul class="botões">
+          <li class="botões__item">
+            <img src="img/Favoritos.svg" alt="Favoritar livro" />
+          </li>
+          <li class="botões__item">
+            <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
+          </li>
+        </ul>
+        <a href="https://www.wizardingworld.com" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Mais vendidos</h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Harry-Potter-Pedra-Filosofal-Rowling/dp/8532530788">
+            <img src="img/harry_potter1.svg" alt="Harry Potter e a Pedra Filosofal">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Harry-Potter-C%C3%A2mara-Secreta-Rowling/dp/8532530796/ref=pd_lpo_d_sccl_1/142-1410041-5319116?pd_rd_w=QhANV&content-id=amzn1.sym.a2197dac-0fbe-4cc8-beca-b52f96ea33d5&pf_rd_p=a2197dac-0fbe-4cc8-beca-b52f96ea33d5&pf_rd_r=35PPCEYQG81YXCF95FKR&pd_rd_wg=47Qth&pd_rd_r=57039f0f-f531-4c1c-9016-50ccdafc6efc&pd_rd_i=8532530796&psc=1">
+            <img src="img/harry_potter2.svg" alt="Harry Potter e a Câmara Secreta">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Harry-Potter-Prisioneiro-Azkaban-Rowling/dp/853253080X/ref=pd_bxgy_thbs_d_sccl_1/142-1410041-5319116?pd_rd_w=7s7fo&content-id=amzn1.sym.787de441-89cb-4c88-8014-1deb1a0e1e72&pf_rd_p=787de441-89cb-4c88-8014-1deb1a0e1e72&pf_rd_r=V34SNCXRGA8HQFHE3X5T&pd_rd_wg=GYLjo&pd_rd_r=a1aaa990-259b-426d-b7dd-0e0dfc9986ac&pd_rd_i=853253080X&psc=1">
+            <img src="img/harry_potter3.svg" alt="Harry Potter e o Prisioneiro de Azkaban">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Harry-Potter-C%C3%A1lice-Fogo-Rowling/dp/8532530818/ref=pd_bxgy_thbs_d_sccl_2/142-1410041-5319116?pd_rd_w=m30un&content-id=amzn1.sym.787de441-89cb-4c88-8014-1deb1a0e1e72&pf_rd_p=787de441-89cb-4c88-8014-1deb1a0e1e72&pf_rd_r=9XT5QP29JNN1GAES1RMM&pd_rd_wg=MjjxB&pd_rd_r=9c058dad-8735-43a7-9e6a-53e2e573acca&pd_rd_i=8532530818&psc=1">
+            <img src="img/harry_potter4.svg" alt="Harry Potter e o Cálice de Fogo">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Harry-Potter-Ordem-F%C3%AAnix-Rowling/dp/8532530826/ref=pd_bxgy_thbs_d_sccl_2/142-1410041-5319116?pd_rd_w=NZ1wu&content-id=amzn1.sym.787de441-89cb-4c88-8014-1deb1a0e1e72&pf_rd_p=787de441-89cb-4c88-8014-1deb1a0e1e72&pf_rd_r=K4S5RSZYQ9SAYZ84203G&pd_rd_wg=nb5Vd&pd_rd_r=2a1f57b8-fa34-47cb-90dd-7c08df53cd8f&pd_rd_i=8532530826&psc=1">
+            <img src="img/harry_potter5.svg" alt="Harry Potter e a Ordem da Fênix">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Harry-Potter-Enigma-do-Pr%C3%ADncipe/dp/8532530834/ref=pd_bxgy_thbs_d_sccl_1/142-1410041-5319116?pd_rd_w=UoKbt&content-id=amzn1.sym.787de441-89cb-4c88-8014-1deb1a0e1e72&pf_rd_p=787de441-89cb-4c88-8014-1deb1a0e1e72&pf_rd_r=E9N1YHY1CGYNZQ661QYE&pd_rd_wg=NFJ5f&pd_rd_r=91d48339-c978-4c28-8e59-02ff90378e0f&pd_rd_i=8532530834&psc=1">
+            <img src="img/harry_potter6.svg" alt="Harry Potter e o Enigma do Príncipe">
+          </a>
+          </a>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+          <h3 class="descrição__titulo">Autor do Mês</h3>
+          <h2 class="descrição__titulo-livro">J.K. Rowling</h2>
+          <p class="descrição__texto">Joanne Rowling, conhecida como J.K. Rowling, é uma escritora britânica famosa mundialmente pela criação da série literária Harry Potter. Seus livros exploram temas de amizade, coragem e magia, tendo cativado milhões de leitores ao redor do mundo. Além da saga, que foi adaptada para o cinema em uma das franquias mais lucrativas da história, Rowling também escreveu a série policial Cormoran Strike sob o pseudônimo Robert Galbraith e o romance Morte Súbita. Sua trajetória de superação, passando de dificuldades financeiras ao sucesso global, é uma das mais inspiradoras da literatura contemporânea. </p>
+        </div>
+        <img src="img/Escritor.svg" class="descrição__imagem">
+      </div>
+      <div class="card__botões">
+        <ul class="botões">
+          <li class="botões__item">
+            <img src="img/Favoritos.svg" alt="Favoritar livro" />
+          </li>
+          <li class="botões__item">
+            <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
+          </li>
+        </ul>
+        <a href="https://pt.wikipedia.org/wiki/J._K._Rowling" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+        <li class="tópicos__item"><a href="#" class="tópicos__link">Hogwarts</a></li>
+        <li class="tópicos__item"><a href="#" class="tópicos__link">Magia</a></li>
+        <li class="tópicos__item"><a href="#" class="tópicos__link">Quadribol</a></li>
+        <li class="tópicos__item"><a href="#" class="tópicos__link">Aventuras</a></li>
+        <li class="tópicos__item"><a href="#" class="tópicos__link">Animais Fantásticos</a></li>
+        <li class="tópicos__item"><a href="#" class="tópicos__link">Duelos de Feitiços</a></li>
+        <li class="tópicos__item"><a href="#" class="tópicos__link">As Relíquias da Morte</a></li>
+        <li class="tópicos__item"><a href="#" class="tópicos__link">Ministério da Magia</a></li>
+    </ul>
+</section>
+
+
+  <section class="contato">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Grupo Alura</h2>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
